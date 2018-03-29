@@ -1,0 +1,34 @@
+{
+  "name": "flipboxfactory/craft-assets-card",
+  "description": "An asset bundle for Craft CMS",
+  "version": "1.0.0",
+  "keywords": [
+    "flipbox",
+    "craft cms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Flipbox Factory",
+      "email": "hello@flipboxfactory.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "~3.0.0",
+    "flipboxfactory/craft-assets-circle-icon": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "squizlabs/php_codesniffer": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "flipbox\\craft\\assets\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "flipbox\\craft\\assets\\tests\\": "tests/src/"
+    }
+  }
+}
