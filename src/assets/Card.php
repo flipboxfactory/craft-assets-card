@@ -9,7 +9,7 @@
 namespace flipbox\craft\assets\card;
 
 use craft\web\AssetBundle;
-use flipbox\craft\assets\circleicon\CircleIcon;
+use craft\web\assets\cp\CpAsset;
 
 /**
  * @author Flipbox Factory <hello@flipboxfactory.com>
@@ -38,6 +38,6 @@ class Card extends AssetBundle
      * @inheritdoc
      */
     public $depends = [
-        CircleIcon::class,
+        CpAsset::class,
     ];
 }
