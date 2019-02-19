@@ -1,7 +1,7 @@
 {
   "name": "flipboxfactory/craft-assets-card",
   "description": "An asset bundle for Craft CMS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "flipbox",
     "craft cms"
@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "craftcms/cms": "~3.0.0"
+    "craftcms/cms": "^3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.0",
